@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.echolima.mismapas.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloApp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/imgCastillo"
+            android:layout_width="@dimen/tamaño_iconos"
+            android:layout_height="@dimen/tamaño_iconos"
+            android:src="@drawable/castillo2"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="irACastillo"/>
+        <ImageButton
+            android:id="@+id/imgCine"
+            android:layout_width="@dimen/tamaño_iconos"
+            android:layout_height="@dimen/tamaño_iconos"
+            android:src="@drawable/cinema"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="irACine"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="@dimen/tamaño_iconos"
+            android:layout_height="@dimen/tamaño_iconos"
+            android:src="@drawable/playa"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="irAPlaya"/>
+        <ImageButton
+            android:layout_width="@dimen/tamaño_iconos"
+            android:layout_height="@dimen/tamaño_iconos"
+            android:src="@drawable/monta_a"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="irAMontaña"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MisMapas</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="snippet_montaña">Mirador del Garbi, mar y roca</string>
+    <string name="snippet_playa">Preciosa playa de aguas cristalinas</string>
+    <string name="snippet_castillo">Antigua ciudad amurallada romana</string>
+    <string name="snippet_cine">Las mejores películas de estreno</string>
+    <string name="tituloApp">Mis Lugares favoritos</string>
+</resources>
